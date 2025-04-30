@@ -1,23 +1,16 @@
 package com.weldingco.welding.controller;
 
-import java.awt.image.BufferedImage;
-import java.awt.image.RenderedImage;
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.time.LocalDateTime;
+
 import java.util.List;
-import javax.imageio.ImageIO;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
+
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
+
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-import com.weldingco.welding.entity.Customer;
+
 import com.weldingco.welding.entity.Equipment;
 import com.weldingco.welding.entity.Image;
 import com.weldingco.welding.entity.Material;
